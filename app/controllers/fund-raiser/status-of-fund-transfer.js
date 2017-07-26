@@ -13,8 +13,8 @@ export default Ember.Controller.extend({
         "filterPlaceholder": "Funder Name"
     }, {
         "propertyName": "pleageamount",
-        "title": "Pleage Amount",
-        "filterPlaceholder": "Pleage Amount"
+        "title": "Goal Amount",
+        "filterPlaceholder": "Goal Amount"
     }, {
         "propertyName": "receivedamount",
         "title": "Received Fund",
