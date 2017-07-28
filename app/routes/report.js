@@ -3,13 +3,13 @@ import Ember from 'ember';
 export default Ember.Route.extend({
       model() {
         var data=[ {
-            "campaignname": "Seed Funding",  "pledgeamount": "10000/-", "receivedamount": "10000/-","fundsreceived": "100%", "status": "Received",
+            "campaignname": "Seed Funding",  "goalamount": "10000/-", "receivedamount": "10000/-","fundsreceived": "100%", "status": "Received",
         }
         , {
-           "campaignname": "Hamari Ganga",  "pledgeamount": "15000/-", "receivedamount": "0","fundsreceived": "66.67%", "status": "Pending"
+           "campaignname": "Hamari Ganga",  "goalamount": "50000/-", "receivedamount": "33350/-","fundsreceived": "66.67%", "status": "Pending"
         }
         , {
-            "campaignname": "Plant Tree",  "pledgeamount": "20000/-", "receivedamount": "20000/-","fundsreceived": "70%","status": "Not Received"
+            "campaignname": "Plant Tree",  "goalamount": "100000/-", "receivedamount": "70000/-","fundsreceived": "70%","status": "Not Received"
         }
         ];
        

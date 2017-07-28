@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
       model() {
-          var datastring;
+         /* var datastring;
            //var token = sessionStorage.getItem('token');
            //console.log("token"+token);
            return  $.ajax({
@@ -23,7 +23,7 @@ export default Ember.Route.extend({
                         console.log('err')
                         console.log('DEBUG: GET Enquiries Failed');
                     }
-                });
+                });*/
       }
 
 

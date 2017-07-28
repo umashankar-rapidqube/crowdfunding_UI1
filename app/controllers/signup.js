@@ -241,7 +241,7 @@ export default Ember.Controller.extend(Validations, ValidationsOrg, {
                 "designation":""
             };
             //console.log(CONFIG.GOURL);
-            //alert('YOU ARE SUCCESSFULLY REGISTERED');
+            alert('YOU ARE SUCCESSFULLY REGISTERED');
             //this.toggleProperty('isShowingModal');
            // this.set('loading_image_visibility', "show");
             var mycontroller = this;

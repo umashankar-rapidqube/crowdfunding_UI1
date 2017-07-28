@@ -6,9 +6,9 @@ export default Ember.Controller.extend({
         "title": "Campaign Name",
         "filterPlaceholder": "Campaign Name",
     }, {
-        "propertyName": "pledgeamount",
-        "title": "Pledge Amount",
-        "filterPlaceholder": "Pledge Amount"
+        "propertyName": "goalamount",
+        "title": "Goal Amount",
+        "filterPlaceholder": "Goal Amount"
     }, {
         "propertyName": "receivedamount",
         "title": "Received Amount",
@@ -36,7 +36,7 @@ export default Ember.Controller.extend({
               
 
                var data;
-         $.ajax({
+       /*  $.ajax({
          url:"http://localhost:8082/funder_dashboard",
          type: 'GET',
          contentType: 'application/json;charset=utf-8',
@@ -56,7 +56,7 @@ export default Ember.Controller.extend({
                 console.log("Error : " + JSON.stringify(err));
                 console.log('DEBUG: GET Enquiries Failed');
             }
-        });
+        });*/
 
         this.transitionToRoute('funder_dashboard');
 

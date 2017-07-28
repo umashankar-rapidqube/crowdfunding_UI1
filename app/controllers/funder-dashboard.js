@@ -50,7 +50,7 @@ export default Ember.Controller.extend(Validations,{
             //var uid;
             var message;
            // console.log("Registration Input: " + JSON.stringify(dataString));
-            return $.ajax({
+           /* return $.ajax({
             url: 'http://localhost:8082/funder_dashboard/rating',
             type: 'POST',
             accepts: 'application/json',
@@ -70,7 +70,7 @@ export default Ember.Controller.extend(Validations,{
             error: function(result) {
                    console.log('DEBUG: GET Enquiries Failed');
             }
-           });
+           });*/
             this.toggleProperty('showFeedback');
         }
     }
